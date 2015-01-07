@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Portfolio of my various websites!">
+		<meta name="author" href="humans.txt">
+		<link rel="icon" href="images/favicon1.ico">
+
+		<title>Web Portfolio</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+
+		<!-- Custom styles for the Website -->
+		<link href="css/styles.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    	<!--[if lt IE 9]>
+      		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    	<![endif]-->
+    </head>
+
+    <!-- Custom Styles for HomePage -->
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic|Sigmar+One|Righteous|Pacifico' rel='stylesheet' type='text/css'>
+
+    <style>
+    </style>
+
+    <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-default navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <a href="#" class="navbar-brand" id="brand"><span class="glyphicon glyphicon-list"></span> Web Portfolio <span class="label label-default" id="tiny">New</span></a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="#about" data-toggle="modal" role="button"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
+                <li class="text-muted"><a href="#contact" data-toggle="modal" role="button"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span id="tiny" class="badge">4</span> Websites <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="tablist">
+                    <li><a href="#mobile">Mobile Web Application</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#pro">Professional Online Portfolio</a></li>
+                    <li><a href="#msiv3">MainStreet Solutions Inc. V3</a></li>
+                    <li><a href="#msiv2">MainStreet Solutions Inc. V2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/grayBackground.png" alt="Gray Background slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+              <br>
+              Mobile Web Applications</h1>
+              <p>Clean, efficient, and portable web applications.</p>
+              <p><a class="btn btn-lg btn-primary" href="#mwa" role="button" data-toggle="modal">Click to Learn More <span class="glyphicon glyphicon-info-sign"></span></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/lightBlue.png" alt="Blue Background slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><span class="glyphicon glyphicon-user"></span>
+              <br>
+              Professional Online Portfolios</h1>
+              <p>Crisp and refreshing portfolios to boost online image.</p>
+              <p><a class="btn btn-lg btn-primary" href="#pop" role="button" data-toggle="modal">Click to Learn More <span class="glyphicon glyphicon-info-sign"></span></a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/lightBrown.png" alt="Brown Background slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1><span class="glyphicon glyphicon-globe"></span>
+              <br>
+              Company Websites</h1>
+              <p>MainStreet Solutions needed a new site, we responded with a modern mobile first design!</p>
+              <p><a class="btn btn-lg btn-primary" href="#sites" role="button" data-toggle="modal">Click to Learn More <span class="glyphicon glyphicon-info-sign"></span></a></p>
+            </div>
+           </div>
+          </div>
+        </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/HTML5_Logo_256.png" style="width: 140px; height:140px;" alt="HTML5 Logo">
+          <h2>HTML5</h2>
+          <p>All sites created using the latest HTML standards!</p>
+          <p><a class="btn btn-default" href="http://www.w3.org/TR/html5/" role="button" target="_blanks">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/CSS3_Logo_256.png" style="width: 140px; height: 140px;" alt="CSS3 Logo">
+          <h2>CSS3</h2>
+          <p>All sites created using the latest CSS standards!</p>
+          <p><a class="btn btn-default" href="http://www.css3.info" role="button" target="_blanks">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/js3.png" style="width: 140px; height: 140px;" alt="JavaScript Logo">
+          <h2>JavaScript</h2>
+          <p>All sites created using the latest JavaScript standards!</p>
+          <p><a class="btn btn-default" href="http://eloquentjavascript.net/" role="button" target="_blanks">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="mobile">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Group Share Mobile - <br><span class="text-muted small">MIS 4312</span></h2>
+          <p class="lead">This web application was developed during Fall semester 2014</p>
+          <div class="text-center">
+          	<a href="http://172.3.110.30/webappfinal" role="button" class="btn btn-primary btn-lg" target="_blank">Personal LAMP Host &raquo; </a>
+          	<a href="http://groupsharemobile-richardschmidt7.rhcloud.com" role="button" class="btn btn-danger btn-lg" target="_blank">Red Hat Cloud Host &raquo;
+          	 </a> 
+          	 <br>
+          	 <br>
+          	 <a href="#">
+          	 	<button class="btn btn-link"><span class="glyphicon glyphicon-circle-arrow-up"></span> Back to Top</button>
+          	 </a>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/logo1.png" alt="GSM image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="pro">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/logo2.png" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Professional Online Portfolio - <span class="text-muted small">POP</span></h2>
+          <p class="lead">A show case of some of my undergrad work done at UT Dallas.</p>
+          <div class="text-center">
+          	<a href="http://172.3.110.30/newpop1" role="button" class="btn btn-primary btn-lg" target="_blank">Click to Visit &raquo; </a>
+          	<br>
+          	<br>
+          	<a href="#">
+          		<button class="btn btn-link"><span class="glyphicon glyphicon-circle-arrow-up"></span> Back to Top</button>
+          	</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="msiv3">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">MainStreet Solutions Inc. - <span class="text-muted small">Revisioned Site</span><span class="label label-default" id="tiny"><span class="glyphicon glyphicon-tag"></span> New</span></h2>
+          <p class="lead">MainStreet Solutions redesigned homepage!</p>
+          <div class="text-center">
+          	<a href="http://172.3.110.30/msi-v3" role="button" class="btn btn-primary btn-lg" target="_blank">Click to Visit &raquo; </a>
+          	<br>
+      	    <br>
+      	 	<a href="#">
+      	 		<button class="btn btn-link"><span class="glyphicon glyphicon-circle-arrow-up"></span> Back to Top</button>
+      	 	</a>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/logo3.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="msiv2">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/logo4.png" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">MainStreet Solutions Inc. - <span class="text-muted small">2<sup>nd</sup> Site</span></h2>
+          <p class="lead">The reincarnation of MainStreet Solutions Homepage!</p>
+          <div class="text-center">
+          	<a href="http://172.3.110.30/msi2" role="button" class="btn btn-primary btn-lg" target="_blank">Click to Visit &raquo; </a>
+          	<br>
+          	<br>
+          	<a href="#">
+          	  <button class="btn btn-link"><span class="glyphicon glyphicon-circle-arrow-up"></span> Back to Top</button>
+          	</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="text-center">&copy; 2015 Richard Schmidt &middot; <a href="#privacy" data-toggle="modal">Privacy</a> &middot; <a href="#terms" data-toggle="modal">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- Modals within Homepage -->
+
+    <!-- Mobile Web Apps Modal -->
+
+    <div class = "modal fade" id = "mwa" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-header bg-info">
+            <button type = "button" class="close" data-dismiss="modal">
+            	<span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span><span class="sr-only">Close</span>
+            </button>
+            <h3>
+            	<span class="glyphicon glyphicon-phone"></span> Mobile Web Applications
+            </h3>
+          </div>
+          <div class = "modal-body bg-warning">
+    
+            <blockquote>Every Mobile Web Application is created using HTML5, CSS3, JavaScript, PHP, and SQL databases Delivering the power of the internet to your fingertips!
+            <br><br>
+            <i class="text-muted">~Web Apps at your fingertips!</i>
+	        </blockquote>
+
+	      </div>
+          <div class = "modal-footer bg-info">
+        	<a class = "btn btn-danger" role = "button" data-dismiss = "modal">Close</a>
+          </div>
+        </div>
+      </div>
+  	</div><!-- End Mobile Web App Modal -->
+
+  	<!-- Professional Online Portfolio Modal -->
+
+  	<div class = "modal fade" id = "pop" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-header bg-info">
+            <button type = "button" class="close" data-dismiss="modal">
+            	<span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span><span class="sr-only">Close</span>
+            </button>
+            <h3>
+            	<span class="glyphicon glyphicon-user"></span> Professional Online Portfolios
+            </h3>
+          </div>
+          <div class = "modal-body bg-warning">
+    
+            <blockquote>We specialize in creating beautiful and elegant Professional Online Portfolios for young professionals. Showcase your best qualities. 
+            <br><br>
+            <i class="text-muted">~Establish your online presence!
+	        </blockquote>
+
+	      </div>
+          <div class = "modal-footer bg-info">
+        	<a class = "btn btn-danger" role = "button" data-dismiss = "modal">Close</a>
+          </div>
+        </div>
+      </div>
+  	</div><!-- End Professional Online Portfolio Modal -->
+
+  	<!-- Clients Modal -->
+
+  	<div class = "modal fade" id = "sites" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-header bg-info">
+            <button type = "button" class="close" data-dismiss="modal">
+            	<span class="glyphicon glyphicon-remove text-danger" aria-hidden="true"></span><span class="sr-only">Close</span>
+            </button>
+            <h3>
+            	<span class="glyphicon glyphicon-globe"></span> Company Websites
+            </h3>
+          </div>
+          <div class = "modal-body bg-warning">
+    
+            <blockquote>Let us develop your company's next interactive website! A light, portable, and beautifully designed representation of your company!
+            <br><br> 
+            <i class="text-muted">~Represent your company in style!</i>
+	        </blockquote>
+
+	      </div>
+          <div class = "modal-footer bg-info">
+        	<a class = "btn btn-danger" role = "button" data-dismiss = "modal">Close</a>
+          </div>
+        </div>
+      </div>
+  	</div><!-- End Clients Modal -->
+
+    <!-- About Modal -->
+
+    <div class = "modal fade" id = "about" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-header bg-success">
+            <button type = "button" class="close" data-dismiss="modal">
+            	<span aria-hidden="true" class="glyphicon glyphicon-remove text-danger"></span><span class="sr-only">Close</span>
+            </button>
+            <h3>
+            	<span class="glyphicon glyphicon-question-sign"></span> Web/UI/UX Developer
+            </h3>
+          </div>
+          <div class = "modal-body bg-primary">
+
+          	<h4><b>Richard A. Schmidt</b></h4>
+    		<img src="images/richard.png" alt="Picture of myself!" class="img-thumbnaile img-responsive center-block">
+            <blockquote><b>Residence:</b> Richardson, TX
+            			<br>
+            			<b>Education:</b> The University of Texas at Dallas
+            			<br>
+            			<b>Degree:</b> Bachelor of Science in Information Technology and Systems
+            			<br>
+            			<b>Specialty:</b> Mobile first Web/UI/UX development
+            			<br>
+            			<b>Frameworks:</b> twitter Bootstrap, jQuery, jQuery Mobile, and AngularJS
+            			<br>
+            			<b>Future Languages:</b> Python, C#.NET, and Ruby
+            	<div class = "text-center">
+	                <h4><b>Contact:</b></h4>
+	                <span class = "glyphicon glyphicon-home" aria-hidden = "true"> <a href = "http://172.3.110.30/newpop1" target="_blank" id="white">Homepage</a></span>
+	                <br>
+	                <span class = "glyphicon glyphicon-envelope" aria-hidden = "true"> <a href = "mailto:richardschmidt07@gmail.com" id="white">Email</a></span>  
+	                <br>
+	                <a href="http://www.linkedin.com/pub/richard-schmidt/88/591/177/">
+	                <img src="images/linkedin_icon.png" alt="LinkedIn Logo" height="64" width="64">
+	                </a>
+	            </div>
+	        </blockquote>
+	      </div>
+          <div class = "modal-footer bg-success">
+        	<a class = "btn btn-danger" role = "button" data-dismiss = "modal">Close</a>
+          </div>
+        </div>
+      </div>
+  	</div><!-- End About Modal -->
+
+    <!-- Contact Modal -->
+
+    <div class = "modal fade" id = "contact" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <form class="form-horizontal" method="POST" action="php/send.php">
+              <div class = "modal-header bg-success">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove text-danger"></span><span class="sr-only">Close</span></button>
+                <h3><span class="glyphicon glyphicon-envelope"></span> Contact Me: <p class="label label-default" id="tiny"><span class="glyphicon glyphicon-time"></span> Coming Soon...</p></h3>
+              </div>
+
+              <div class = "modal-body bg-primary">
+              	<div class="form">
+                  <div class = "form-group">
+                  	<label for = "contact-name" class = "col-lg-2 control-label">Name</label>
+                    <div class = "col-lg-10">
+                      <input type = "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+                    </div>
+                  </div>
+                  <div class = "form-group">
+                  <label for = "contact-email" class = "col-lg-2 control-label">E-Mail</label>
+                    <div class = "col-lg-10">
+                    	<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+                    </div>
+                  </div>
+                  <div class = "form-group">
+                  	<label for = "contact-msg" class = "col-lg-2 control-label">Message</label>
+                    <div class = "col-lg-10">
+                      <textarea class = "form-control" rows = "8" id="contact-msg" placeholder = "Message here..."></textarea>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class= "modal-footer bg-success">
+              	<a class = "btn btn-primary">Send</a>
+                <a class = "btn btn-danger" data-dismiss = "modal">Close</a>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- End Contact Modal-->
+
+    <!-- Privacy Modal -->
+
+    <div class = "modal fade" id = "privacy" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove text-danger"></span><span class="sr-only">Close</span></button>
+            <h3>Privacy Policy</h3>
+          </div>
+          <div class="modal-body bg-danger">
+            <p>This website does not collect any information through cookies. It is simply a front-end website that utilizes <a href="http://getbootstrap.com">BootStrap</a>. PHP is only used to drive data forms and send emails. This website is monitored and protected.</p><br><p class="text-center">-Site Administrator!</p>
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-danger" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Privacy Modal -->
+
+    <!-- Terms Modal -->
+
+    <div class = "modal fade" id = "terms" role = "dialog">
+      <div class = "modal-dialog">
+        <div class = "modal-content">
+          <div class = "modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="glyphicon glyphicon-remove text-danger"></span><span class="sr-only">Close</span></button>
+            <h3>Terms and Conditions</h3>
+          </div>
+          <div class="modal-body bg-success">
+				<h5><b>In using this website you are deemed to have read and agreed to the following terms and conditions:</b></h5>
+				<br>
+				<br>
+				<p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: "Client", “You” and “Your” refers to you, the person accessing this website and accepting the Company’s terms and conditions. "The Company", “Ourselves”, “We” and "Us", refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client or ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, in accordance with and subject to, prevailing English Law. Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.<p>
+				<br>
+				<br>
+				<h5><b>Privacy Statement</b></h5>
+				<p>We are committed to protecting your privacy. Authorized employees within the company on a need to know basis only use any information collected from individual customers. We constantly review our systems and data to ensure the best possible service to our customers. Parliament has created specific offences for unauthorised actions against computer systems and data. We will investigate any such actions with a view to prosecuting and/or taking civil proceedings to recover damages against those responsible</p>
+				<br>
+				<br>
+				<h5><b>Confidentiality</b></h5>
+				<p>We are registered under the Data Protection Act 1998 and as such, any information concerning the Client and their respective Client Records may be passed to third parties. However, Client records are regarded as confidential and therefore will not be divulged to any third party, other than [our manufacturer/supplier(s) and] if legally required to do so to the appropriate authorities. Clients have the right to request sight of, and copies of any and all Client Records we keep, on the proviso that we are given reasonable notice of such a request. Clients are requested to retain copies of any literature issued in relation to the provision of our services. Where appropriate, we shall issue Client’s with appropriate written information, handouts or copies of records as part of an agreed contract, for the benefit of both parties.
+				<br>
+				<b>We will not sell, share, or rent your personal information to any third party or use your e-mail address for unsolicited mail. Any emails sent by this Company will only be in connection with the provision of agreed services and products.</b></p>
+				<br>
+				<br>
+				<h5><b>Disclaimer</b></h5>
+				<h5><b>Exclusions and Limitations</b></h5> 
+				<p>The information on this web site is provided on an "as is" basis. To the fullest extent permitted by law, this Company:
+					excludes all representations and warranties relating to this website and its contents or which is or may be provided by any affiliates or any other third party, including in relation to any inaccuracies or omissions in this website and/or the Company’s literature; and 
+					excludes all liability for damages arising out of or in connection with your use of this website. This includes, without limitation, direct loss, loss of business or profits (whether or not the loss of such profits was foreseeable, arose in the normal course of things or you have advised this Company of the possibility of such potential loss), damage caused to your computer, computer software, systems and programs and the data thereon or any other direct or indirect, consequential and incidental damages. 
+				This Company does not however exclude liability for death or personal injury caused by its negligence. The above exclusions and limitations apply only to the extent permitted by law. None of your statutory rights as a consumer are affected.</p>
+				<br>
+				<br>
+				<h5><b>Payment</b></h5>
+				<p>Cash or Personal Cheque with Bankers Card, all major Credit/Debit Cards, Bankers Draft or BACS Transfer are all acceptable methods of payment. Our Terms are payment in full within thirty days. All goods remain the property of the Company until paid for in full. Monies that remains outstanding by the due date will incur late payment interest at the rate of 2% above the prevailing Bank of England's base rate on the outstanding balance until such time as the balance is paid in full and final settlement. We reserve the right to seek recovery of any monies remaining unpaid sixty days from the date of invoice via collection Agencies and/or through the Small Claims Court in the event that the outstanding balance does not exceed £3000. In such circumstances, you shall be liable for any and all additional administrative and/or court costs. [Amend as appropriate] 
+				<br>
+				<br>
+				Returned cheques will incur a £25 charge to cover banking fees and administrative costs. In an instance of a second Returned cheque, we reserve the right to terminate the arrangement and, if agreed to, we shall insist on future cash transactions only. Consequently, all bookings and/or transactions and agreements entered into will cease with immediate effect until such time as any and all outstanding monies are recovered in full.</p><br> 
+				<br>
+				<h5><b>ancellation Policy</b></h5>
+				<p>Minimum 24 hours notice of cancellation required. Notification for instance, in person, via email, mobile phone ‘text message’ and/or fax, or any other means will be accepted subject to confirmation in writing. We reserve the right to levy a £30 charge to cover any subsequent administrative expenses.</p>
+				<br>
+				<br>
+				<h5><b>Termination of Agreements and Refunds Policy</b></h5>
+				<p>Both the Client and ourselves have the right to terminate any Services Agreement for any reason, including the ending of services that are already underway. No refunds shall be offered, where a Service is deemed to have begun and is, for all intents and purposes, underway. Any monies that have been paid to us which constitute payment in respect of the provision of unused Services, shall be refunded.</p>
+				<br>
+				<br>
+				<h5><b>Availability</b></h5>
+				<p>Unless otherwise stated, the services featured on this website are only available within the United Kingdom, or in relation to postings from the United Kingdom. All advertising is intended solely for the United Kingdom market. You are solely responsible for evaluating the fitness for a particular purpose of any downloads, programs and text available through this site. Redistribution or republication of any part of this site or its content is prohibited, including such by framing or other similar or any other means, without the express written consent of the Company. The Company does not warrant that the service from this site will be uninterrupted, timely or error free, although it is provided to the best ability. By using this service you thereby indemnify this Company, its employees, agents and affiliates against any loss or damage, in whatever manner, howsoever caused.</p>
+				<br>
+				<br>
+				<h5><b>Log Files</b></h5>
+				<p>We use IP addresses to analyse trends, administer the site, track user’s movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for systems administration, detecting usage patterns and troubleshooting purposes, our web servers automatically log standard access information including browser type, access times/open mail, URL requested, and referral URL. This information is not shared with third parties and is used only within this Company on a need-to-know basis. Any individually identifiable information related to this data will never be used in any way different to that stated above without your explicit permission.</p>
+				<br>
+				<br>
+				<h5><b>Cookies</b></h5>
+				<p>Like most interactive web sites this Company’s website [or ISP] uses cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate partners may also use cookies. [If you do not use cookies, delete this clause]</p>
+				<br>
+				<br>
+				<h5><b>Links to this website</b></h5> 
+				You may not create a link to any page of this website without our prior written consent. If you do create a link to a page of this website you do so at your own risk and the exclusions and limitations set out above will apply to your use of this website by linking to it.
+				<br>
+				<br>
+				<h5><b>Links from this website</b></h5> 
+				<p>We do not monitor or review the content of other party’s websites which are linked to from this website. Opinions expressed or material appearing on such websites are not necessarily shared or endorsed by us and should not be regarded as the publisher of such opinions or material. Please be aware that we are not responsible for the privacy practices, or content, of these sites. We encourage our users to be aware when they leave our site &amp; to read the privacy statements of these sites. You should evaluate the security and trustworthiness of any other site connected to this site or accessed through this site yourself, before disclosing any personal information to them. This Company will not accept any responsibility for any loss or damage in whatever manner, howsoever caused, resulting from your disclosure to third parties of personal information.</p>
+				<br>
+				<br>
+				<h5><b>Copyright Notice</b></h5> 
+				<p>Copyright and other relevant intellectual property rights exists on all text relating to the Company’s services and the full content of this website.
+				</p>
+				<br>
+				<br>
+				<h5><b>Communication</b></h5>
+				<p>We have several different e-mail addresses for different queries. These, &amp; other contact information, can be found on our Contact Us link on our website or via Company literature or via the Company’s stated telephone, facsimile or mobile telephone numbers.
+				<br>
+				This company is registered in England and Wales, Number 11111111, registered office 123 Any Street, Anytown AB2 3CD.</p>  <p id="red">[Only need to state this if Limited Company, otherwise proprietors’/partners’ home/trading address must be shown, without use of the term: registered]</p>
+				<br>
+				<br>
+				<h5><b>Force Majeure</b></h5>
+				<p>Neither party shall be liable to the other for any failure to perform any obligation under any Agreement which is due to an event beyond the control of such party including but not limited to any Act of God, terrorism, war, Political insurgence, insurrection, riot, civil unrest, act of civil or military authority, uprising, earthquake, flood or any other natural or man made eventuality outside of our control, which causes the termination of an agreement or contract entered into, nor which could have been reasonably foreseen. Any Party affected by such event shall forthwith inform the other Party of the same and shall use all reasonable endeavours to comply with the terms and conditions of any Agreement contained herein.</p>
+				<br>
+				<br>
+				<h5><b>Waiver</b></h5>
+				<p>Failure of either Party to insist upon strict performance of any provision of this or any Agreement or the failure of either Party to exercise any right or remedy to which it, he or they are entitled hereunder shall not constitute a waiver thereof and shall not cause a diminution of the obligations under this or any Agreement. No waiver of any of the provisions of this or any Agreement shall be effective unless it is expressly stated to be such and signed by both Parties.</p>
+				<br>
+				<br>
+				<h5><b>General</b></h5>
+				<p>The laws of England and Wales govern these terms and conditions. By accessing this website [and using our services/buying our products] you consent to these terms and conditions and to the exclusive jurisdiction of the English courts in all disputes arising out of such access. If any of these terms are deemed invalid or unenforceable for any reason (including, but not limited to the exclusions and limitations set out above), then the invalid or unenforceable provision will be severed from these terms and the remaining terms will continue to apply. Failure of the Company to enforce any of the provisions set out in these Terms and Conditions and any Agreement, or failure to exercise any option to terminate, shall not be construed as waiver of such provisions and shall not affect the validity of these Terms and Conditions or of any Agreement or any part thereof, or the right thereafter to enforce each and every provision. These Terms and Conditions shall not be amended, modified, varied or supplemented except in writing and signed by duly authorised representatives of the Company.</p>
+				<br>
+				<br>
+				<h5><b>Notification of Changes</b></h5>
+				<p>The Company reserves the right to change these conditions from time to time as it sees fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes to our privacy policy, we will announce that these changes have been made on our home page and on other key pages on our site. If there are any changes in how we use our site customers’ Personally Identifiable Information, notification by e-mail or postal mail will be made to those affected by this change. Any changes to our privacy policy will be posted on our web site 30 days prior to these changes taking place. You are therefore advised to re-read this statement on a regular basis
+				<br>
+				<br>
+				These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected.</p>    
+				<p id="red" class="text-center">© Richard Schmidt 2015<br>All Rights Reserved</p>
+
+          </div>
+          <div class="modal-footer">
+            <a class="btn btn-danger" data-dismiss="modal">Close</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Terms Modal -->
+
+    <!-- End Modals -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Custom JavaScript for Site Behavior -->
+    
+	</body>
+</html>
